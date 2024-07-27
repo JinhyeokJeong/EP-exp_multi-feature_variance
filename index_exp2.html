@@ -15,9 +15,9 @@
         <script type="text/javascript" src="jspsych-6.2.0/plugins/jspsych-fullscreen.js"></script>
         <script type="text/javascript" src="jspsych-6.2.0/plugins/jspsych-external-html.js"></script>
         
-        <script src="spectra.min.js"></script>
-        <script src="lib_jointVar_ME_210422_exp2(Mixed).js"></script>
-        <script src="control_consent_form.js"></script>
+        <script src="libs/spectra.min.js"></script>
+        <script src="libs/lib_jointVar_ME_210422_exp2(Mixed).js"></script>
+        <script src="libs/control_consent_form.js"></script>
         
         <!-- <script type="text/javascript" src="lib/vendors/jquery-2.2.0.min.js"></script>
         <script type="text/javascript" src="lib/jspsych-pavlovia-3.2.5.js"></script> -->
@@ -114,7 +114,7 @@
         var instruction = {
             type: 'instructions',
             pages: [
-                '<img src="Instruction_fig1.png">'+
+                '<img src="img/Instruction_fig1.png">'+
                 '<p>In this study, you will be asked to watch a group of items having various orientations and colors.</p>'+
                 'Your task is to judge how variable this group of items depending on their diversity of orientations and colors.</p>'+
                 '<p>You can judge that items with similar colors and orientations are less variable,'+
@@ -122,13 +122,13 @@
                 '<p>Items may have highly similar colors and orientations as illustrated on the left, '+
                 'but they may also have a wide variety of colors and orientations as illustrated on the right.</p>',
                 // 2nd page of instruction 
-                '<img src="Instruction_fig2.png">'+
+                '<img src="img/Instruction_fig2.png">'+
                 '<p>As shown above, items having various orientations and colors will be presented for a second.</p>'+
                 '<p>To report the variability of items, you can adjust the slider bar shown below the items.</p>'+
                 '<p>Please adjust the bar on the slider toward right if you feel that the variability of items appears large,'+
                 'and adjust it toward left if you feel that their variability appears low.</p>',
                 // 3rd page of instruction
-                '<img src="Instruction_fig2.png">'+
+                '<img src="img/Instruction_fig2.png">'+
                 '<p>There is no time limit for response, so you can adjust the slider bar as long as you want.</p>'+
                 '<p>But we recommend that you make a quick decision based on your intuitive feelings rather than mulling over it.</p>',
                 
@@ -290,7 +290,7 @@
 
         // Finish the experiment
         // An image array for preloading
-        var pre_images = ['Instruction_fig1.png', 'Instruction_fig2.png'];
+        var pre_images = ['img/Instruction_fig1.png', 'img/Instruction_fig2.png'];
 
         jsPsych.init({
             timeline: timeline,
