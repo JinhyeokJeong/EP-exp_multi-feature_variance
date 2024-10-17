@@ -9,4 +9,4 @@ OSF Repository: https://osf.io/4hs3k/
 
 ### References 
 - de Leeuw, J.R. (2015). jsPsych: A JavaScript library for creating behavioral experiments in a Web browser. Behavior Research Methods, 47(1), 1-12.
-- Jeong, J., & Chong, S. C. (in press). How do people perceive the variability of multi-feature objects? Manuscript submitted for publication. _Journal of Experimental Psychology: Human Perception and Performance_
+- Jeong, J., & Chong, S. C. (in press). How do people perceive the variability of multi-feature objects? Manuscript submitted for publication. _Journal of Experimental Psychology: Human Perception and Performance_.
